@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "maven-build-ex-ellipal",
+      "type": "shell",
+      "command": "mvn clean install -DskipTests -pl crypto-ex-ellipal",
+      "group": "build",
+      "problemMatcher": [
+        "$maven"
+      ],
+      "detail": "Maven build task"
+    }
+  ]
+}

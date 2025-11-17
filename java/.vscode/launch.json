@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "EllipalApplication",
+      "request": "launch",
+      "mainClass": "com.ellipal.crypto.ellipal.EllipalApplication",
+      "args": "--spring.profiles.active=local",
+      "projectName": "crypto-ex-ellipal",
+      "preLaunchTask": "maven-build-ex-ellipal"
+    }
+  ]
+}
