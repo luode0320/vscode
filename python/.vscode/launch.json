@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "swap_wallet_test", // 建议也改个更具体的名字
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/swap_wallet_test.py", // 指定要运行的文件
+            "console": "integratedTerminal",
+            "preLaunchTask": "install-dependencies" // 关键：调试前运行此任务
+        },
+        {
+            "name": "asset_statistics_test", // 建议也改个更具体的名字
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/asset_statistics_test.py", // 指定要运行的文件
+            "console": "integratedTerminal",
+            "preLaunchTask": "install-dependencies" // 关键：调试前运行此任务
+        },
+        {
+            "name": "create_hot_wallet_ellipal_test", // 建议也改个更具体的名字
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/create_hot_wallet_ellipal_test.py", // 指定要运行的文件
+            "console": "integratedTerminal",
+            "preLaunchTask": "install-dependencies" // 关键：调试前运行此任务
+        }
+    ]
+}

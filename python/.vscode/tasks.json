@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "install-dependencies",
+            "type": "shell",
+            "command": "pip install -r requirements.txt",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false
+            },
+            "problemMatcher": []
+        }
+    ]
+}
